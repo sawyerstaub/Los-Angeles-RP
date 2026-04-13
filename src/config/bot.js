@@ -56,10 +56,24 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
+      { question: "Are you sure you want to fill out a staff application?", required: true },
       { question: "How old are you?", required: true },
       { question: "Why do you want to join?", required: true },
-    ],
+      { question: "Your answers must contain 3+ sentances each do you understand", required: true },
+      { question: "Have you had any prior moderation experience? If yes, please list your rank, the server name, and its member count. If you’ve moderated multiple servers, include them all.?", required: true },
+      { question: "Why did you choose LARP over other servers? 5+ Sentences Required", required: true },
+      { question: "How good is your grammar? 1-10?", required: true },
+      { question: "What is RDM? How would you handle it?", required: true },
+      { question: "What is VDM? How would you handle it?", required: true },
+      { question: "What is FRP? How would you handle it?", required: true },
+      { question: "What is Cuff Rushing? Provide definition, example, and punishment.", required: true },
+      { question: "If a player kills someone without prior interaction, what would you do?", required: true },
+      { question: "If a player hits another with their car for no reason, what would you do? ", required: true },
+      { question: "If a player is found RDMing and disrupting a scene, what sort of punishment should they be given? State your reasoning & the proper punishment for this scenario.", required: true },
+      { question: "Do you agree to be professional at all times?", required: true },
+      { question: "Will you use SPaG while you patrol?", required: true },
+      { question: "Anything else you want to tell us?", required: true },
+      ],
 
     // Embed colors by application status.
     statusColors: {
